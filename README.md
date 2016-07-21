@@ -5,6 +5,7 @@ This is a project to demonstrate the use of
 
 ## Instructions
 
+- Currently this demo has only been run on Linux; it may or may not run on Mac.
 - Download and install Swift 3 Preview 1.0 
     [here](https://swift.org/download/#snapshots).
 - Clone this repository and run the following commands:
