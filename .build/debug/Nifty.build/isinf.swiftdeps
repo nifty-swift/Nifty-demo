@@ -1,0 +1,82 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "isinf"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "Bool"
+- "isinf"
+- "Double"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "isInfinite"]
+- !private ["Ps19BinaryFloatingPoint", "isInfinite"]
+- !private ["Ps7CVarArg", "isInfinite"]
+- !private ["Ps10Comparable", "isInfinite"]
+- !private ["Ps28CustomDebugStringConvertible", "isInfinite"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isInfinite"]
+- !private ["Ps17CustomReflectable", "isInfinite"]
+- !private ["Ps23CustomStringConvertible", "isInfinite"]
+- !private ["Sd", "isInfinite"]
+- !private ["Ps9Equatable", "isInfinite"]
+- !private ["Ps23FloatLiteralConvertible", "isInfinite"]
+- !private ["Ps13FloatingPoint", "isInfinite"]
+- !private ["Ps8Hashable", "isInfinite"]
+- !private ["Ps25IntegerLiteralConvertible", "isInfinite"]
+- !private ["Ps12SignedNumber", "isInfinite"]
+- !private ["Ps10Strideable", "isInfinite"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "isInfinite"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "isInfinite"]
+- !private ["Ps15_CVarArgAligned", "isInfinite"]
+- !private ["Ps22_CVarArgPassedAsDouble", "isInfinite"]
+- !private ["P10Foundation20_FloatArithmeticType", "isInfinite"]
+- !private ["P10Foundation10_FloatLike", "isInfinite"]
+- !private ["P10Foundation22_NSObjectRepresentable", "isInfinite"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "isInfinite"]
+- !private ["Ps11_Strideable", "isInfinite"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "P10Foundation20_FloatArithmeticType"
+- !private "P10Foundation10_FloatLike"
+- !private "P10Foundation22_NSObjectRepresentable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/local/swift/usr/lib/swift/shims/Visibility.h"
+- "/usr/local/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/local/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/local/swift/usr/lib/swift/shims/LibcShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/local/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/RefCount.h"
+- "/usr/local/swift/usr/lib/swift/shims/HeapObject.h"
+- "/usr/local/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/local/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/local/swift/usr/lib/swift/shims/module.map"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+interface-hash: "6741a4743698801b2ecfc15013fa0112"

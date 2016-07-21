@@ -1,0 +1,5 @@
+version: "Swift version 3.0 (swift-3.0-PREVIEW-1)"
+options: "c3da817fa3b47db5d8cb985b15149800"
+build_time: [522380265, 78031000]
+inputs:
+  "/home/philip/Desktop/NiftyDemo/main.swift": [522380259, 0]

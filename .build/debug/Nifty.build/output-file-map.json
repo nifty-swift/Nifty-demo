@@ -1,0 +1,641 @@
+{
+  "": {
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/master.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_linspace.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_linspace.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_linspace.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_linspace~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_linspace.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/eq.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eq.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eq.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eq~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eq.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/find.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/find.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/find.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/find~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/find.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/hypot.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/hypot.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/hypot.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/hypot~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/hypot.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/rdivide.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rdivide.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rdivide.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rdivide~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rdivide.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/atand.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atand.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atand.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atand~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atand.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/isequal.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isequal.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isequal.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isequal~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isequal.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_rank.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rank.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rank.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rank~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rank.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_poly.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_poly.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_poly.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_poly~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_poly.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_rref.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rref.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rref.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rref~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_rref.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_var.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_var.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_var.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_var~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_var.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/randi.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/randi.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/randi.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/randi~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/randi.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/zeros.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/zeros.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/zeros.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/zeros~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/zeros.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_reduce.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reduce.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reduce.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reduce~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reduce.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/sinh.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sinh.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sinh.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sinh~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sinh.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/msb.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/msb.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/msb.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/msb~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/msb.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/acos.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acos.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acos.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acos~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acos.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/atan2d.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2d.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2d.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2d~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2d.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_pinv.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_pinv.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_pinv.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_pinv~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_pinv.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/eye.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eye.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eye.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eye~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/eye.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/sum.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sum.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sum.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sum~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sum.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ldivide.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ldivide.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ldivide.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ldivide~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ldivide.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_randn.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_randn.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_randn.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_randn~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_randn.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/power.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/power.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/power.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/power~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/power.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/atan2.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan2.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_svd.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_svd.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_svd.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_svd~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_svd.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mvnrand.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mvnrand.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mvnrand.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mvnrand~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mvnrand.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/times.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/times.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/times.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/times~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/times.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/sind.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sind.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sind.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sind~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sind.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_det.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_det.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_det.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_det~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_det.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_eigs.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eigs.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eigs.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eigs~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eigs.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/numel.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/numel.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/numel.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/numel~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/numel.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/gt.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/gt.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/gt.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/gt~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/gt.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/cosd.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosd.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosd.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosd~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosd.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mode.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mode.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mode.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mode~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mode.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/min.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/min.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/min.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/min~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/min.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/isinf.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isinf.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isinf.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isinf~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isinf.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/exp2.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp2.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp2.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp2~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp2.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/sub2ind.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sub2ind.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sub2ind.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sub2ind~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sub2ind.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mrdivide.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mrdivide.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mrdivide.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mrdivide~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mrdivide.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/max.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/max.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/max.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/max~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/max.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_map.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_map.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_map.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_map~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_map.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/log10.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log10.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log10.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log10~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log10.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/trace.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/trace.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/trace.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/trace~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/trace.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/cosh.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosh.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosh.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosh~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cosh.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/size.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/size.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/size.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/size~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/size.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/asinh.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asinh.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asinh.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asinh~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asinh.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/atan.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atan.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/matrix.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/matrix.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/matrix.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/matrix~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/matrix.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/tan.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tan.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tan.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tan~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tan.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_qr.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_qr.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_qr.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_qr~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_qr.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mldivide.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mldivide.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mldivide.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mldivide~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mldivide.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/atanh.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atanh.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atanh.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atanh~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/atanh.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/operators.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/operators.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/operators.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/operators~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/operators.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mtimes.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mtimes.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mtimes.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mtimes~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mtimes.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ndims.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ndims.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ndims.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ndims~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ndims.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/nan.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/nan.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/nan.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/nan~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/nan.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/expm1.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/expm1.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/expm1.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/expm1~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/expm1.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_std.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_std.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_std.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_std~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_std.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/log1p.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log1p.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log1p.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log1p~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log1p.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_lu.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_lu.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_lu.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_lu~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_lu.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ones.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ones.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ones.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ones~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ones.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_median.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_median.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_median.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_median~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_median.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ceil.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ceil.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ceil.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ceil~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ceil.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/tanh.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tanh.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tanh.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tanh~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tanh.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/time.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/time.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/time.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/time~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/time.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/plus.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/plus.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/plus.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/plus~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/plus.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_cond.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_cond.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_cond.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_cond~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_cond.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ne.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ne.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ne.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ne~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ne.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/round.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/round.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/round.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/round~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/round.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_eig.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eig.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eig.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eig~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_eig.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/isnan.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isnan.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isnan.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isnan~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/isnan.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/rand.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rand.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rand.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rand~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rand.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_norm.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_norm.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_norm.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_norm~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_norm.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ge.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ge.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ge.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ge~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ge.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_repmat.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_repmat.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_repmat.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_repmat~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_repmat.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/acosh.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosh.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosh.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosh~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosh.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_diag.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_diag.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_diag.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_diag~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_diag.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/asind.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asind.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asind.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asind~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asind.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mean.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mean.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mean.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mean~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mean.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/ind2sub.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ind2sub.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ind2sub.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ind2sub~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/ind2sub.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/pow.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/pow.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/pow.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/pow~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/pow.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/le.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/le.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/le.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/le~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/le.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_chol.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_chol.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_chol.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_chol~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_chol.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/inf.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inf.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inf.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inf~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inf.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/rmap.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rmap.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rmap.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rmap~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/rmap.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/sqrt.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sqrt.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sqrt.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sqrt~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sqrt.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/definitions.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/definitions.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/definitions.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/definitions~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/definitions.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/asin.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asin.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asin.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asin~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/asin.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/minus.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/minus.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/minus.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/minus~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/minus.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/lu.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lu.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lu.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lu~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lu.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/acosd.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosd.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosd.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosd~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/acosd.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/log.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_mpower.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mpower.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mpower.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mpower~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_mpower.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/lt.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lt.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lt.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lt~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/lt.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/log2.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log2.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log2.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log2~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/log2.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_filter.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_filter.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_filter.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_filter~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_filter.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_reshape.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reshape.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reshape.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reshape~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_reshape.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/inv.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inv.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inv.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inv~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/inv.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/floor.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/floor.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/floor.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/floor~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/floor.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/sin.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sin.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sin.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sin~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/sin.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/transpose.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/transpose.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/transpose.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/transpose~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/transpose.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/1_prod.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_prod.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_prod.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_prod~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/1_prod.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/cos.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cos.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cos.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cos~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/cos.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/tand.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tand.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tand.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tand~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/tand.swiftdeps"
+  },
+  "/home/philip/Desktop/NiftyDemo/Packages/Nifty-1.0.0/Sources/exp.swift": {
+    "dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp.d",
+    "object": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp.swift.o",
+    "swiftmodule": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp~partial.swiftmodule",
+    "swift-dependencies": "/home/philip/Desktop/NiftyDemo/.build/debug/Nifty.build/exp.swiftdeps"
+  }
+}

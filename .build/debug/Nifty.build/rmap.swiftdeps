@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "rmap"
+- "rmap"
+- "rmap"
+- "rmap"
+provides-nominal:
+provides-member:
+depends-top-level:
+- !private "IntegerLiteralType"
+- "Int"
+- !private "FloatLiteralType"
+- "Range"
+- "ClosedRange"
+- "Double"
+- "rmap"
+- !private "+"
+- !private "*"
+- !private "/"
+- !private "-"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Vs11ClosedRange", "lowerBound"]
+- !private ["Vs11ClosedRange", "upperBound"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lowerBound"]
+- !private ["Ps28CustomDebugStringConvertible", "upperBound"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "lowerBound"]
+- !private ["Ps17CustomReflectable", "upperBound"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lowerBound"]
+- !private ["Ps23CustomStringConvertible", "upperBound"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lowerBound"]
+- !private ["Ps9Equatable", "upperBound"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Vs5Range", "lowerBound"]
+- !private ["Vs5Range", "upperBound"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["P5Nifty12SliceElement", "lowerBound"]
+- !private ["P5Nifty12SliceElement", "upperBound"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["P10Foundation20_FloatArithmeticType", "init"]
+- !private ["P10Foundation10_FloatLike", "init"]
+- !private ["P10Foundation22_NSObjectRepresentable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Vs5Range"
+- !private "Ps12SignedNumber"
+- !private "P5Nifty12SliceElement"
+- !private "Ps10Strideable"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "P10Foundation20_FloatArithmeticType"
+- !private "P10Foundation10_FloatLike"
+- !private "P10Foundation22_NSObjectRepresentable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/local/swift/usr/lib/swift/shims/Visibility.h"
+- "/usr/local/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/usr/local/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/usr/local/swift/usr/lib/swift/shims/LibcShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/usr/local/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/RefCount.h"
+- "/usr/local/swift/usr/lib/swift/shims/HeapObject.h"
+- "/usr/local/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/usr/local/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/usr/local/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/usr/local/swift/usr/lib/swift/shims/module.map"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/local/swift/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+interface-hash: "fcec1b09279e13447e07d776220b7ac8"
