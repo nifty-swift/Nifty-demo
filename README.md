@@ -1,23 +1,15 @@
 # Nifty Demo
 
-This is a project to demonstrate the use of 
-    [Nifty](https://github.com/philipce/nifty).
+[![License](https://img.shields.io/hexpm/l/plug.svg)](LICENSE)
 
-## Instructions
+Here's a simple example of Nifty in action!
 
-- Currently this demo has only been run on Linux; it may or may not run on Mac.
-- Download and install Swift 3 Preview 1.0 
-    [here](https://swift.org/download/#snapshots).
-- Clone this repository and run the following commands:
+Eventually (hopefully soon!) this demo and accompanying documentation will get much fancier. 
+For now, follow the steps below to get Nifty up and running:
 
-```
-$ cd nifty-demo
-$ swift build
-$ .build/debug/NiftyDemo
-```
-
-This should build and run a demo application that uses Nifty. The program may 
-terminate with errors, but these should be due to asserts failing in Nifty as 
-it gets fleshed out.
-    
-
+- Clone this repository
+- Make sure you've met the requirements for [Nifty](https://github.com/nifty-swift/Nifty)
+- Open a terminal inside your local copy of this repository
+- Run `swift build`. You should see the package manager clone into various repositories to
+    gather the needed packages, compiling, and then linking.
+- Once the build has completed, execute `.build/debug/Nifty-demo` to run the demo!

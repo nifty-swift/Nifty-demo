@@ -1,5 +1,4 @@
-# Ignore files built by Swift package manager
-.build
-
-# Ignore dependencies downloaded by Swift package manager
-Packages
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj

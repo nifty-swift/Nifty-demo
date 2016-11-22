@@ -1,8 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "NiftyDemo", 
+    name: "Nifty-demo",
     dependencies: [
-        .Package(url: "https://github.com/philipce/nifty.git", majorVersion: 1)
-    ]
+        .Package(url: "https://github.com/nifty-swift/Nifty.git", majorVersion: 1)
+    ]    
 )
