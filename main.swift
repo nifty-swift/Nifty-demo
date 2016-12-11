@@ -6,36 +6,52 @@ print("\n======\nNifty!\n======\n")
 
 tic()
 
+
+//------------------------------
 // create a matrix
 var M = Matrix([[276.0251,  498.3641,  751.2671], 
                 [679.7027, -959.7440,  255.0951],
                 [655.0980, -340.3857,  505.9571]])
 
+
+//------------------------------
 // optionally, give it a name
 M.name = "NiftyMatrix"
 M.title = true
 
+
+//------------------------------
 // display a matrix/slices
 print("\(M)\n")
 print("\(M[1...2])\n")
 print("\(M[0..<2,1...2])\n")
 
+
+//------------------------------
 // modify a matrix/slice
 M[0,1] = 12346.789
 M[1...2,1...2] = Matrix(size: [2,2], data: [11,12,21,22]) 
 print("\(M)\n")
 
+
+//------------------------------
 // display matrix information
 print("M has \(M.numel) elements, and its size is \(M.size)\n")
 
+
+//------------------------------
 // invert a matrix
 let M_inv = ~M
 print("\(M_inv)\n")
 
+
+//------------------------------
 // transpose a matrix
 let M_transpose = M^ 
 print("\(M_transpose)\n")
 
+
+//------------------------------
 // solve A*x = B for x
 let A = Matrix([[21,  3,  4,  4, 17],
                 [23,  7, 25, 11,  1],
@@ -52,10 +68,14 @@ let B = Matrix([[18, 21, 11, 13,  7],
 let x = A-/B
 print("\(x)\n")
 
+
+//------------------------------
 // solve y*A = B for y
 let y = B/A
 print("\(y)\n")
 
+
+//------------------------------
 // multiply matrices
 print("\(A*B)\n")
 
@@ -65,10 +85,15 @@ var CD = C*D
 CD.title = true
 print("\(CD)\n")
 
+
+//------------------------------
 // create random numbers
 print("Random number [0, 1): \(rand())\n")
 print("Random matrix [0, 1):\n\(rand([4,5], min: -3.5, max: 15.7))\n")
 print("Random integer [0, 500): \(randi(max: 500))\n")
 print("Random integer matrix:\n\(randi([6,3]))\n")
+print("Normal random numer ~(0, 1): \(randn())\n")
+print("Normal random numers ~(5.5, 0.01):\n\(randn([7,7], mean: 5.5, std: 0.1))\n")
+
 
 toc()
