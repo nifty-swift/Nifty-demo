@@ -58,6 +58,7 @@ print("\(y)\n")
 
 // multiply matrices
 print("\(A*B)\n")
+
 let C = Matrix(size: [4,2], data: [1,2,3,4,5,6,7,8])
 let D = Matrix(size: [2,2], value: 4.5)
 var CD = C*D 
@@ -66,8 +67,8 @@ print("\(CD)\n")
 
 // create random numbers
 print("Random number [0, 1): \(rand())\n")
-print("Random matrix [0, 1):\n\(rand([4,5]))\n")
+print("Random matrix [0, 1):\n\(rand([4,5], min: -3.5, max: 15.7))\n")
 print("Random integer [0, 500): \(randi(max: 500))\n")
-print("Random integer matrix [0, 345):\n\(randi([6,3], max: 345))\n")
+print("Random integer matrix:\n\(randi([6,3]))\n")
 
 toc()
