@@ -17,7 +17,7 @@ var M = Matrix([[276.0251,  498.3641,  751.2671],
 //------------------------------
 // optionally, give it a name
 M.name = "NiftyMatrix"
-M.title = true
+M.showName = true
 
 
 //------------------------------
@@ -30,13 +30,12 @@ print("\(M[0..<2,1...2])\n")
 //------------------------------
 // modify a matrix/slice
 M[0,1] = 12346.789
-M[1...2,1...2] = Matrix(size: [2,2], data: [11,12,21,22]) 
+M[1...2,1...2] = Matrix(2, 2, data: [11,12,21,22]) 
 print("\(M)\n")
-
 
 //------------------------------
 // display matrix information
-print("M has \(M.numel) elements, and its size is \(M.size)\n")
+print("M has \(M.count) elements, and its size is \(M.size)\n")
 
 
 //------------------------------
@@ -57,13 +56,13 @@ let A = Matrix([[21,  3,  4,  4, 17],
                 [23,  7, 25, 11,  1],
                 [ 4, 14, 24, 23, 22],
                 [23, 24, 13, 20, 24],
-                [16, 25, 21, 24, 17]], name: "A", title: true)
+                [16, 25, 21, 24, 17]], name: "A", showName: true)
 
 let B = Matrix([[18, 21, 11, 13,  7],
                 [ 1, 18, 10, 12, 17],
                 [ 7,  8, 20, 17, 17],
                 [ 2, 24, 20, 18,  5],
-                [ 3,  1,  5, 19,  3]], name: "B", title: true)
+                [ 3,  1,  5, 19,  3]], name: "B", showName: true)
 
 let x = A-/B
 print("\(x)\n")
@@ -79,21 +78,21 @@ print("\(y)\n")
 // multiply matrices
 print("\(A*B)\n")
 
-let C = Matrix(size: [4,2], data: [1,2,3,4,5,6,7,8])
-let D = Matrix(size: [2,2], value: 4.5)
+let C = Matrix(4, 2, data: [1,2,3,4,5,6,7,8])
+let D = Matrix(2, 2, value: 4.5)
 var CD = C*D 
-CD.title = true
+CD.showName = true
 print("\(CD)\n")
-
 
 //------------------------------
 // create random numbers
 print("Random number [0, 1): \(rand())\n")
-print("Random matrix [0, 1):\n\(rand([4,5], min: -3.5, max: 15.7))\n")
+print("Random matrix [0, 1):\n\(rand(4, 5, min: -3.5, max: 15.7))\n")
 print("Random integer [0, 500): \(randi(max: 500))\n")
-print("Random integer matrix:\n\(randi([6,3]))\n")
+print("Random integer matrix:\n\(randi(6, 3))\n")
 print("Normal random numer ~(0, 1): \(randn())\n")
-print("Normal random numers ~(5.5, 0.01):\n\(randn([7,7], mean: 5.5, std: 0.1))\n")
+print("Normal random numers ~(5.5, 0.01):\n\(randn(7, 7, mean: 5.5, std: 0.1))\n")
+
 
 
 toc()
