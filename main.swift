@@ -91,7 +91,7 @@ print("Random matrix [0, 1):\n\(rand(4, 5, min: -3.5, max: 15.7))\n")
 print("Random integer [0, 500): \(randi(max: 500))\n")
 print("Random integer matrix:\n\(randi(6, 3))\n")
 print("Normal random numer ~(0, 1): \(randn())\n")
-print("Normal random numers ~(5.5, 0.01):\n\(randn(7, 7, mean: 5.5, std: 0.1))\n")
+print("Normal random numers ~(5.5, 0.01):\n\(randn(7, 4, mean: 5.5, std: 0.1))\n")
 
 
 
