@@ -2,14 +2,14 @@
 
 import Nifty
 
-print("\n          __  _____  __             \n" +
-      "    ____ |__|/ ____|/  |_ ___ __      \n" +
+print("\n          __  _____  __              \n" +
+      "    ____ |__|/ ____|/  |_ ___ __       \n" +
       "   /    \\|  \\   __\\\\   __\\   |  | \n" +
-      "  |   |  \\  ||  |   |  |  \\___  |   \n" +
-      "  |___|__/__||__|   \\__|  /_____|   \n\n")
+      "  |   |  \\  ||  |   |  |  \\___  |    \n" +
+      "  |___|__/__||__|   \\__|  /_____|     \n\n")
 
 //------------------------------------------------------------------------------
-// Create a new matrix. Here, we'll use the constructor that takes a list of row
+// Create a new matrisx. Here, we'll use the constructor that takes a list of row
 // data. Also, we'll supply an optional name for the matrix, which will show 
 // when printed and also be applied to any transforms of this matrix.
 var M = Matrix([[276.0251,  498.3641,  751.2671], 
@@ -29,8 +29,8 @@ M[1...2,1...2] = Matrix(2, [11,12,21,22])
 print(M, terminator: "\n\n")
 
 // Access basic matrix information. 
-print("\(M.name) has \(M.count) elements, \(M.rows) rows, and \(M.columns), " +
-    "meaning it has a size of \(M.size)")
+print("\(M.name!) has \(M.count) elements, \(M.rows) rows, and \(M.columns) " +
+    "columns (size=\(M.size))\n")
 
 //------------------------------------------------------------------------------
 // There are two other basic structures: Vectors (like a 1-dimensional matrix), 
@@ -46,7 +46,7 @@ let size = [3,4,2,2]
 var data = [Int]()
 for i in 1...size.reduce(1,*) { data.append(i) }
 let T = Tensor(size, data, name: "T")
-print(T, terminator: "\n\n")
+print(T, terminator: "\n")
 
 //------------------------------------------------------------------------------
 // Returning to the Matrix, let's look at some of Nifty's linear algebra. Note
