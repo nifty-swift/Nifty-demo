@@ -17,8 +17,7 @@ var M = Matrix([[276.0251,  498.3641,  751.2671],
                 [679.7027, -959.7440,  255.0951],
                 [655.0980, -340.3857,  505.9571]])
                 
-let size = [3,1,3]
-var T = Tensor(size, M.data)
+var T = Tensor([3,1,3], M.data)
 ```
 
 Each type provides methods for cleanly displaying the data it contains. For example, calling `print(V)` displays,
