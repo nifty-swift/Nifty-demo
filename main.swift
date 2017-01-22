@@ -57,6 +57,7 @@ print("\(Ms)\n")
 // Invert:
 let Mi = ~M   
 let _ = inv(M)
+
 print("\(Mi)\n")
 
 // Solve A*x = B for x:
@@ -73,45 +74,55 @@ let B = Matrix<Double>([[18, 21, 11, 13,  7],
                         [ 3,  1,  5, 19,  3]], name: "B")
 
 let x = A-/B   // or, mldivide(A, B)
-print(x, terminator: "\n\n")
+
+print("\(x)\n")
 
 // Solve y*A = B for y:
 let y = B/A   // or, mrdivide(B, A)
-print(y, terminator: "\n\n")
+
+print("\(y)\n")
 
 // Singular value decomposition, multiplication, and transpose:
 let X = Matrix<Double>([[1,2],[3,4],[5,6],[7,8]], name: "A")
 let (U,S,V) = svd(X)
-print(X,      terminator: "\n\n")
-print(U,      terminator: "\n\n")
-print(S,      terminator: "\n\n")
-print(V,      terminator: "\n\n")  
-print(U*S*V^, terminator: "\n\n")   // or, transpose(V)     
+
+print("\(X)\n")
+print("\(U)\n")
+print("\(S)\n")
+print("\(V)\n")
+print("\(U*S*V^)\n")  // or, transpose(V)
 
 //------------------------------------------------------------------------------
 // RANDOM NUMBERS
 
 let r = rand()
+
 print("Random number [0, 1): \(r)\n")
 
 let R = rand(4, 5, min: -3.5, max: 15.7)
+
 print("Random matrix [0, 1):\n\(R)\n")
 
 let ri = randi(max: 500)
+
 print("Random integer [0, 500): \(ri)\n")
 
 let Ri = randi(6, 3, min: 35, max: 110)
+
 print("Random integer matrix:\n\(Ri)\n")
 
 let rn = randn()
+
 print("Normal random numer ~(0, 1): \(rn)\n")
 
 let Rn = randn(7, 4, mean: 5.5, std: 0.1)
+
 print("Normal random numers ~(5.5, 0.01):\n\(Rn)\n")
 
 let mu      = Vector([2.0,3.0], name: "μ")       
 let sigma   = Matrix<Double>([[1,1.5],[1.5,3.0]], name: "Σ")
 let vectors = mvnrnd(mu: mu, sigma: sigma, cases: 5)
+
 print("\(mu)\n")
 print("\(sigma)\n")
 print("\(vectors.map({"\($0)"}).joined(separator: "\n"))\n")
