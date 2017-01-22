@@ -38,19 +38,19 @@ and calling `print(T)` displays,
 
 ```
 [..., ..., 0]:
-R0:   276.025
-R1:   679.703
-R2:   655.098
+R0:   0.0
+R1:   1.0
+R2:   2.0
 
 [..., ..., 1]:
-R0:    498.364
-R1:   -959.744
-R2:   -340.386
+R0:   0.1
+R1:   1.1
+R2:   2.1
 
 [..., ..., 2]:
-R0:   751.267
-R1:   255.095
-R2:   505.957
+R0:   0.2
+R1:   1.2
+R2:   2.2
 ```
 
 By default, the data is rounded to keep the display compact, but the settings can be adjusted for each instance. Additionally, each can be set to have a name displayed along with the contents,
