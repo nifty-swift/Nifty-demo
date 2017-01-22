@@ -21,7 +21,7 @@ let size = [3,1,3]
 let T = Tensor(size, M.data)
 ```
 
-TODO: continue fleshing this out...
+TODO: continue fleshing this section of the README out... for now, just check out the main.swift file for the complete demo
 
 
 ###### Linear Algebra
