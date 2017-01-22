@@ -1,64 +1,63 @@
-/// Simple Nifty demo project.
+// Simple Nifty demo project.
 
 import Nifty
 
-let title = "              _____  __               \n" +
-            "   _____  ___/ ____|/  |_ ___ __      \n" +
-            "  |     \\/  /   __\\\\   __\\   |  | \n" +
-            "  |   |  \\  ||  |   |  |_ \\___  |   \n" +
-            "  |___|__/__||__|   \\____|/_____|    \n"
-
-print("\n\(title)\n")            
-
+print("NIFTY DEMO\n\n")
 
 //------------------------------------------------------------------------------
-// Create a new matrix. Here, we'll use the constructor that takes data row by
-// row. Also, we'll supply an optional name for the matrix, which will show 
-// when printed and also be applied to any transforms of this matrix.
+// FUNDAMENTAL STRUCTURES
+
+// Create structures:
+var v = Vector([2.34, 6, 0.000000034, 67.234, 98456456.234])
+
 var M = Matrix([[276.0251,  498.3641,  751.2671], 
                 [679.7027, -959.7440,  255.0951],
-                [655.0980, -340.3857,  505.9571]], name: "M")
+                [655.0980, -340.3857,  505.9571]])
+                
+let size = [3,1,3]
+var T = Tensor(size, M.data)
 
-// Display the matrix. We can print the entire matrix, slices of the matrix, or
-// just single elements.
-print(M,               terminator: "\n\n")
-print(M[0..<2, 1...2], terminator: "\n\n")
-print(M[1,2],          terminator: "\n\n")
+print("\(v)\n")
+print("\(M)\n")
+print("\(T)\n")
 
-// Modify the matrix. We can subscript slices or single elements. Here we
-// demonstrate an alternate initializer to create the square, 2x2 matrix slice.
-M[0,1] = 12346.789
-M[1...2,1...2] = Matrix(2, [11,12,21,22]) 
-print(M, terminator: "\n\n")
+// Name matrix:
+M.name = "MyNiftyMatrix"
+M.showName = true
 
-// Access basic matrix information. 
-print("\(M.name!) has \(M.count) elements, \(M.rows) rows, and \(M.columns) " +
-    "columns (size=\(M.size))\n")
+print("\(M)\n")
+
+// Index, subscript, and slice:
+v[3] = 3.0
+
+M[0] = 0.1
+M[4] = 1.1
+M[8] = 2.2
+
+M[0,1] = 0.1
+M[1,1] = 1.1
+M[2,2] = 2.2
+
+M[1...2,1...2] = Matrix(2, [11, 12, 21, 22]) 
+
+let t = T[0,0,0..<3]
+
+print("\(v)\n")
+print("\(M)\n")
+print("\(t)\n")
+
+// String matrix:
+let Ms = Matrix(2, 4, value: "X")
+
+print("\(Ms)\n")
 
 //------------------------------------------------------------------------------
-// Nifty has two other basic structures: Vectors (like a 1-dimensional matrix), 
-// and Tensors (like an n-dimensional matrix). They have interfaces and 
-// functionality similar to that of the Matrix structure.
-
-// Vector:
-let v = Vector([2.34, 6, 0.000000034, 67.234, 98456456.234])
-print(v, terminator: "\n\n")
-
-// Tensor:
-let size = [3,4,2,2]
-var data = [Int]()
-for i in 1...size.reduce(1,*) { data.append(i) }
-let T = Tensor(size, data, name: "T")
-print(T)
-
-//------------------------------------------------------------------------------
-// Returning to the Matrix, let's look at some of Nifty's linear algebra. Note
-// that matrices are generic and can hold elements of any type. In this case, we
-// are explicit about the matrix containing doubles.
+// LINEAR ALGEBRA
 
 // Invert:
-let Mi = ~M   // or, inv(M)
-print(Mi, terminator: "\n\n")
+let Mi = ~M   
+let _ = inv(M)
+print("\(Mi)\n")
 
 // Solve A*x = B for x:
 let A = Matrix<Double>([[21,  3,  4,  4, 17],
@@ -87,10 +86,10 @@ print(X,      terminator: "\n\n")
 print(U,      terminator: "\n\n")
 print(S,      terminator: "\n\n")
 print(V,      terminator: "\n\n")  
-print(U*S*V^, terminator: "\n\n")   // or, transpose(V)      
+print(U*S*V^, terminator: "\n\n")   // or, transpose(V)     
 
 //------------------------------------------------------------------------------
-// Nifty also has various random number generators:
+// RANDOM NUMBERS
 
 let r = rand()
 print("Random number [0, 1): \(r)\n")
@@ -101,7 +100,7 @@ print("Random matrix [0, 1):\n\(R)\n")
 let ri = randi(max: 500)
 print("Random integer [0, 500): \(ri)\n")
 
-let Ri = randi(6, 3)
+let Ri = randi(6, 3, min: 35, max: 110)
 print("Random integer matrix:\n\(Ri)\n")
 
 let rn = randn()
@@ -110,17 +109,27 @@ print("Normal random numer ~(0, 1): \(rn)\n")
 let Rn = randn(7, 4, mean: 5.5, std: 0.1)
 print("Normal random numers ~(5.5, 0.01):\n\(Rn)\n")
 
+let mu      = Vector([2.0,3.0], name: "μ")       
+let sigma   = Matrix<Double>([[1,1.5],[1.5,3.0]], name: "Σ")
+let vectors = mvnrnd(mu: mu, sigma: sigma, cases: 5)
+print("\(mu)\n")
+print("\(sigma)\n")
+print("\(vectors.map({"\($0)"}).joined(separator: "\n"))\n")
+
 //------------------------------------------------------------------------------
-// It also has a convenient way to time code snippets. The 'tic' function starts
-// a global stopwatch, the 'toc' function gives the ellapsed time, by default
-// in seconds, but other units can be requested.
+// TIMING
 
 // Time random number generation in seconds:
 tic()
 let Z = randi(500, 500, min: -999, max: 999)
 toc()
 
-// Time matrix inversion in milliseconds
+// Time matrix inversion in milliseconds:
 tic()
-let _ = inv(Z)
+let Zi = inv(Z)
 toc(.ms)
+
+// Store time for matrix multiplication:
+tic()
+let _ = Z * Zi
+let time = toc(returning: .minutes)
