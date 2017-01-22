@@ -54,7 +54,7 @@ R1:   255.095
 R2:   505.957
 ```
 
-By default, the data is rounded to keep the display compact, but the settings can be adjusted for each structure. Additionally, each structure can be set to have a name displayed along with the contents,
+By default, the data is rounded to keep the display compact, but the settings can be adjusted for each instance. Additionally, each can be set to have a name displayed along with the contents,
 
 ```swift
 M.name = "MyNiftyMatrix"
@@ -70,7 +70,7 @@ R1:   679.703   -959.744   255.095
 R2:   655.098   -340.386   505.957
 ```
 
-Nifty fundamental structures are all zero-indexed, stored in row-major order, and can be easily indexed, subscripted, and sliced:
+Nifty fundamental structures are all zero-indexed, stored in row-major order, and can be easily indexed, subscripted, and sliced. For example,
 
 ```swift
 V[3] = 3.0
@@ -88,13 +88,13 @@ M[1...2,1...2] = Matrix(2, [11,12,21,22])
 let t = T[0, 0, 0..<3]
 ```
 
-Most of the functionality provided by Nifty is based on these fundamental types, which usually contain floating-point numbers. However, all of the fundamental types are generic, and can contain any type of values. For example,
+Most of the functionality provided by Nifty is based on these fundamental types, which usually contain floating-point numbers. However, all of the fundamental types are generic and can contain any type of values. For example,
 
 ```swift
 let Ms = Matrix(2, 4, value: "X")
 ```
 
-creates a 2-by-4 matrix containing the letter "X" in each cell, which displays as,
+creates a 2-by-4 string matrix containing the letter "X" in each cell, which displays as,
 
 ```
 R0:   X   X   X   X
@@ -130,7 +130,7 @@ let B = Matrix<Double>([[18, 21, 11, 13,  7],
 let x = A-/B   // or, mldivide(A, B)
 ```
 
-Calling `print(x)` displays the following (Note that the output matrix was given a name based on the inputs' names and the transform applied--all Nifty functions do this by default!):
+Calling `print(x)` displays the following (note that the output matrix was given a name based on the inputs' names and the transform applied--all Nifty functions do this by default!):
 
 ```
 mldivide(A, B):
@@ -142,17 +142,17 @@ R4:   -5.19676    9.83532     9.0264   -1.62428    3.63471
 
 ```
 
-There is a lot more of linear algebra functionality in Nifty--check out the demo code for some more examples or the Nifty documentation for a complete listing.
+There is a lot more linear algebra functionality in Nifty--check out the demo code for further examples or the Nifty documentation for a complete listing.
 
 ##### Random Numbers
 
-Nifty also provides a variety of easy-to-use random number functions. For example, a 6-by-3 matrix of random whole numbers between 35 and 110:
+Nifty also provides a variety of easy-to-use random number functions. For example, creating a 6-by-3 matrix of random whole numbers between 35 and 110:
 
 ```
 let Ri = randi(6, 3, min: 35, max: 110)
 ```
 
-Or a list of 5 random vectors from a multivariate normal distribution:
+Or creating a list of 5 random vectors from a multivariate normal distribution:
 
 ```
 let mu      = Vector([2.0,3.0], name: "μ")       
