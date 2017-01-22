@@ -11,7 +11,7 @@ Here's a simple example of Nifty in action!
 Nifty offers three fundamental types of data structures: vectors, matrices, and tensors, with various initializers for each. For example,
 
 ```swift
-var V = Vector([2.34, 6, 0.000000034, 67.234, 98456456.234])
+var v = Vector([2.34, 6, 0.000000034, 67.234, 98456456.234])
 
 var M = Matrix([[276.0251,  498.3641,  751.2671], 
                 [679.7027, -959.7440,  255.0951],
@@ -20,7 +20,7 @@ var M = Matrix([[276.0251,  498.3641,  751.2671],
 var T = Tensor([3, 1, 3], [0.0, 0.1, 0.2, 1.0, 1.1, 1.2, 2.0, 2.1, 2.2])
 ```
 
-Each type provides methods for cleanly displaying the data it contains. For example, calling `print(V)` displays,
+Each type provides methods for cleanly displaying the data it contains. For example, calling `print(v)` displays,
 
 ```
 <2.34   6   3.4E-8   67.234   9.846E7>
