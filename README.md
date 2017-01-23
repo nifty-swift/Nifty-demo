@@ -147,13 +147,13 @@ There is a lot more linear algebra functionality in Nifty--check out the demo co
 
 Nifty also provides a variety of easy-to-use random number functions. For example, creating a 6-by-3 matrix of random whole numbers between 35 and 110:
 
-```
+```swift
 let Ri = randi(6, 3, min: 35, max: 110)
 ```
 
 Or creating a list of 5 random vectors from a multivariate normal distribution:
 
-```
+```swift
 let mu      = Vector([2.0,3.0], name: "μ")       
 let sigma   = Matrix<Double>([[1,1.5],[1.5,3.0]], name: "Σ")
 let vectors = mvnrnd(mu: mu, sigma: sigma, cases: 5)
@@ -163,7 +163,7 @@ let vectors = mvnrnd(mu: mu, sigma: sigma, cases: 5)
 
 Nifty makes timing code snippets particularly easy. MATLAB users will be familiar with `tic` and `toc`, which start a stopwatch, and return the time on the stopwatch, respectively. For example,
 
-```
+```swift
 tic()
 let Z = randi(500, 500, min: -999, max: 999)
 toc()
@@ -171,7 +171,7 @@ toc()
 
 displays the number of seconds it took to generate Z. Times are by default in seconds, but the default can be overridden to provide the ellapsed time in the desired units. For example,
 
-```
+```swift
 tic()
 let Zi = inv(Z)
 toc(.ms)
@@ -179,7 +179,7 @@ toc(.ms)
 
 displays the ellapsed time in milliseconds. Rather than displaying the time, the result can be stored to a variable. For example,
 
-```
+```swift
 tic()
 let _ = Z * Zi
 let time = toc(returning: .minutes)
