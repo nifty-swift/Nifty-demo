@@ -60,7 +60,7 @@ M.name = "MyNiftyMatrix"
 M.showName = true
 ```
 
-Now, calling print(M) displays,
+Now, calling `print(M)` displays,
 
 ```
 MyNiftyMatrix:
@@ -102,9 +102,9 @@ R1:   X   X   X   X
 
 ##### Linear Algebra
 
-Nifty provides a variety of linear algebra functions, mainly operating `Matrix<Double>` types.
+Nifty provides a variety of linear algebra functions, mainly operating on `Matrix<Double>` types.
 
-Here's an example of how we could invert a matrix, using both the function `inv()` and the symbolic prefix operator `~` (Nifty provides symbolic operators for a variety of common math functions):
+Here's an example of how we could invert a matrix, using both the function `inv()` and the `~` prefix operator (Nifty provides symbolic operators for a variety of common math functions):
 
 ```swift
 let Mi = ~M 
