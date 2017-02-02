@@ -2,7 +2,7 @@
 
 import Nifty
 
-print("NIFTY DEMO\n\n")
+print("\nNIFTY DEMO\n")
 
 //------------------------------------------------------------------------------
 // FUNDAMENTAL STRUCTURES
